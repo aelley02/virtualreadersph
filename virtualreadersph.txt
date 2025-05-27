@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Virtual Readers - Your E-book Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .intro {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+    .product-card h3 {
+      margin: 15px 0 10px;
+      color: #4a90e2;
+    }
+    .product-card p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background-color: #4a90e2;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #357ABD;
+    }
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Virtual Readers</h1>
+  <p>Your Gateway to Quality E-books</p>
+</header>
+
+<main>
+  <section class="intro">
+    <h2>Welcome to Virtual Readers</h2>
+    <p>Explore our collection of carefully selected e-books to boost your knowledge and skills.</p>
+  </section>
+
+  <section class="products">
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/250x300.png?text=Programming+Basics" alt="Programming Basics" />
+      <h3>Programming Basics</h3>
+      <p>Learn the fundamentals of programming with this beginner-friendly e-book.</p>
+      <a href="https://drive.google.com/drive/folders/1sZ0rYIg61tD7BDWBq1tVWTc_bPR6nM3Y?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn">View E-books Folder</a>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/250x300.png?text=Advanced+Programming" alt="Advanced Programming" />
+      <h3>Advanced Programming</h3>
+      <p>Take your programming skills to the next level with this advanced guide.</p>
+      <a href="https://drive.google.com/drive/folders/1sZ0rYIg61tD7BDWBq1tVWTc_bPR6nM3Y?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn">View E-books Folder</a>
+    </div>
+
+    <!-- Add more e-book cards as needed -->
+
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Virtual Readers. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
